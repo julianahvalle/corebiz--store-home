@@ -69,3 +69,15 @@ header {
   display: block;
   width: 150px;
 }
+
+/*search bar*/
+
+.search-bar {
+  border-bottom: 1px solid #7a7a7a;
+  padding: 0.2rem;
+}
+input {
+  border: none;
+  outline: none;
+  padding-right: 3vw;
+}
