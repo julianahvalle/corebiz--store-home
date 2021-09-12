@@ -10,6 +10,7 @@ body {
 }
 
 header {
+  font-size: 90%;
   margin-top: 20px;
   display: flex;
   flex-flow: row wrap;
@@ -40,10 +41,16 @@ header {
   float: left;
 }
 .menu li {
+  display: flex;
+  align-items: center;
   position: relative;
   float: left;
 }
+.menu li img {
+  margin-right: 0.5vw;
+}
 .menu li a {
+  color: #333333;
   text-decoration: none;
   padding: 5px 10px;
   display: block;
