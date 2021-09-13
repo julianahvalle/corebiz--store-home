@@ -181,7 +181,91 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-
 button:hover {
   filter: brightness(0.9);
+}
+
+/*contact__container*/
+
+.contact__container {
+  background: #f2f2f2;
+  height: 100%;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  margin-top: 2.5rem;
+}
+.contact__container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.contact__container h2 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.contact__container input {
+  height: 5vh;
+  width: 17vw;
+  border-radius: 5px;
+  margin-left: 13px;
+  padding-left: 13px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.contact__container button {
+  background-color: #e9bf33;
+  width: 7vw;
+}
+/*footer*/
+footer {
+  background-color: #000000;
+  color: #fff;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.location__container span {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.location__container div {
+  height: 4px;
+  width: 3vw;
+  background-color: #e9bf33;
+  margin: 1vh 0;
+}
+
+.suport__container {
+  display: flex;
+  flex-direction: column;
+}
+.suport__container button {
+  background-color: #e9bf33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12vw;
+}
+.suport__container img {
+  padding: 0 1rem 0;
+}
+#button2 img {
+  padding-left: 2rem;
+}
+.created__container {
+  display: flex;
+  flex-direction: row;
+}
+.created__container div {
+  padding-left: 2rem;
+}
+.created__container p {
+  color: #e9bf33;
+  font-size: 0.7rem;
 }
