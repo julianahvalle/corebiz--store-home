@@ -26,9 +26,12 @@ header {
 .container img {
   margin-right: 3vw;
 }
-#user {
+#user a {
   display: flex;
   align-items: flex-start;
+  flex-direction: row;
+  text-decoration: none;
+  color: #7a7a7a;
   padding: 1vw;
 }
 #user img {
@@ -84,6 +87,24 @@ input {
 
 /*carrinho*/
 
+#car a {
+  display: flex;
+  width: 2vw;
+  height: 3vh;
+  text-decoration: none;
+  position: relative;
+}
+#car span {
+  color: #fff;
+  position: absolute;
+  font-size: 80%;
+  background-color: #f8475f;
+  padding: 1px 3px 1px 3px;
+  border-radius: 50%;
+  margin-left: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
 /*carousel*/
 
 .carousel {
@@ -132,7 +153,10 @@ input {
 .banner__button {
   border-radius: 50%;
   border: 0;
-  font-weight: bold;
+  background-color: transparent;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
   cursor: pointer;
   width: 40px;
   height: 40px;
@@ -156,6 +180,13 @@ input {
 }
 
 /*products*/
+.product__image {
+  display: flex;
+  justify-content: flex-end;
+}
+.product__image .flag {
+  position: absolute;
+}
 .product__text {
   display: flex;
   flex-direction: column;
